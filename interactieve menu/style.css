@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Satisfy&family=Yeseva+One&display=swap");
+
+body {
+  background-color: #f2ede9;
+  margin: 0;
+  overflow: auto;
+  height: 200vh;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin-top: 20vh;
+}
+
+a {
+  color: #c1c1a7;
+  font-family: "Yeseva One", cursive;
+  font-size: clamp(3rem, 8vw, 10rem);
+  font-weight: 300;
+  text-decoration: none;
+  position: relative;
+}
+
+a:hover {
+  color: white;
+}
+
+.menu-item {
+  position: relative;
+  z-index: 2;
+  padding: 3rem 0 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.menu-item::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom left;
+  transition: transform 2s ease-out;
+}
+
+.menu-item:hover::after {
+  transform: scaleX(1);
+}
+
+.menu-name {
+  display: flex;
+  gap: 20px;
+  position: relative;
+}
+
+.menu-name span {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 24px;
+}
+
+.sub-name {
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+img {
+  position: absolute;
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(0.5);
+  transition: transform 250ms, opacity 250ms;
+  pointer-events: none;
+  width: min(40vw, 500px);
+}
+
+a:hover > img {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
