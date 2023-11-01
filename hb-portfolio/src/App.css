@@ -1,0 +1,223 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.logo img {
+  max-width: 100px; /* Pas deze waarde aan naar de gewenste grootte */
+  height: auto;
+}
+
+.navbar {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2ede9;
+  color: black;
+  padding: 0.5rem 2rem; /* Aangepaste padding voor de navigatiebalk */
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2; /* Verhoog de z-index-waarde van de navigatiebalk om ervoor te zorgen dat deze bovenop de andere elementen blijft */
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 4em;
+  margin-right: 1rem;
+}
+
+.nav-items {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-items a {
+  color: black;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.right-side a {
+  color: black;
+  text-decoration: none;
+  margin-right: 3rem;
+}
+
+.project-scroll-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  flex-wrap: nowrap; /* Voorkom dat de elementen naar een nieuwe regel gaan */
+  justify-content: flex-start; /* Plaats de elementen aan de linkerkant van de container */
+}
+
+.project-card {
+  flex: 0 0 300px;
+  margin-right: 20px;
+  padding: 20px;
+  flex-shrink: 0; /* Voorkom dat de elementen krimpen bij een kleinere viewport */
+}
+
+/* Voeg deze CSS-regels toe aan je App.css-bestand */
+
+.heropage {
+  position: relative; /* Zorg ervoor dat de positie van de heropage relatief is */
+  z-index: 1; /* Verhoog de z-index-waarde van de heropage om ervoor te zorgen dat deze boven de navbar ligt */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("./assets/hero-page.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-section {
+  text-align: center;
+  width: 100%;
+}
+
+.intro-text {
+  position: relative;
+}
+
+.intro-text h2 {
+  font-size: 8rem;
+  font-family: "Helvetica Neue";
+  color: #c1c1a7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  font-size: 8rem;
+  font-weight: 900;
+  cursor: default;
+  transition: all 0.3s;
+  display: inline-block;
+}
+
+.square:hover {
+  color: #97977e;
+  animation: stretch 1s infinite;
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.rubberBand {
+  animation: rubberBand 1s;
+}
+
+@keyframes rubberBand {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1.25, 0.75);
+  }
+  40% {
+    transform: scale(0.75, 1.25);
+  }
+  50% {
+    transform: scale(1.15, 0.85);
+  }
+  65% {
+    transform: scale(0.95, 1.05);
+  }
+  75% {
+    transform: scale(1.05, 0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 8000px;
+}
+
+.text-container {
+  width: 50%;
+  padding: 1rem;
+}
+
+.animation-container {
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.text-container p {
+  text-align: left;
+}
