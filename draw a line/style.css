@@ -1,0 +1,13 @@
+body {
+  font-family: "Arial", sans-serif;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.container {
+  min-height: 800px;
+  text-align: center;
+}
