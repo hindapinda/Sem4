@@ -4,12 +4,16 @@
    
    Mijn POC = https://i485489.luna.fhict.nl/draw%20a%20line/
    
+\\
+
 
 2. Naam functie = cursor follower 
 
    Inspiratie bron = 	https://dimitriossykovaris.netlify.app/about  
 
    Mijn POC = https://i485489.luna.fhict.nl/cursor%20animation/
+
+\\
 
 
 3. Naam functie= Loading page 	 
@@ -18,12 +22,16 @@
 
    Mijn POC= LOCAL ONLY (code hier boven)
 
+\\
+
 
 4. Naam functie= Animation 	
 
    Inspiratie bron= https://masontywong.com 	
 
    Mijn POC= LOCAL ONLY (code hier boven)
+
+\\
 
 
 5. Naam functie= Hover-effecten	
@@ -32,12 +40,16 @@
 
    Mijn POC= https://i485489.luna.fhict.nl/jiggle%20letters/ 
 
+\\
+
 
 6. Naam functie= Infinte scroll 
 
    Inspiratie bron= https://solitario.studio/en 
 
    Mijn POC= https://i485489.luna.fhict.nl/infinte%20scroller/ 
+
+\\
 
 
 7. Naam functie= Scroll color change
@@ -46,12 +58,16 @@
 
    Mijn POC= LOCAL ONLY (code hier boven)
 
+\\
+
 
 8. Naam functie= Stackin cards
 
    Inspiratie bron= 	https://readymag.com/readymag/oracle-cards/?utm_source=awwwards.com&utm_medium=paid&utm_campaign=oracle_cards 
 
    Mijn POC= https://i485489.luna.fhict.nl/scroll%20cards/ 
+
+\\
 
 
 9. Naam functie= Interactieve menu 
@@ -60,12 +76,16 @@
 
    Mijn POC= https://i485489.luna.fhict.nl/interactieve%20menu/  
 
+\\
 
-10. Naam functie= Darkmode 
 
-   Inspiratie bron= https://www.themoodydoula.com 
+10. Naam functie= Darkmode
+   
+    Inspiratie bron= https://www.themoodydoula.com
 
-   Mijn POC= https://i485489.luna.fhict.nl/darkmode/ 
+    Mijn POC= https://i485489.luna.fhict.nl/darkmode/ 
+
+\\
 
 
 
