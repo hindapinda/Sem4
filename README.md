@@ -13,7 +13,8 @@
 
    Mijn POC = https://i485489.luna.fhict.nl/cursor%20animation/
 
-\
+
+<br>
 
 
 3. Naam functie= Loading page 	 
@@ -22,7 +23,8 @@
 
    Mijn POC= LOCAL ONLY (code hier boven)
 
-\
+
+<br>
 
 
 4. Naam functie= Animation 	
@@ -31,7 +33,8 @@
 
    Mijn POC= LOCAL ONLY (code hier boven)
 
-\
+
+<br>
 
 
 5. Naam functie= Hover-effecten	
@@ -40,7 +43,8 @@
 
    Mijn POC= https://i485489.luna.fhict.nl/jiggle%20letters/ 
 
-\
+
+<br>
 
 
 6. Naam functie= Infinte scroll 
@@ -49,7 +53,8 @@
 
    Mijn POC= https://i485489.luna.fhict.nl/infinte%20scroller/ 
 
-\
+
+<br>
 
 
 7. Naam functie= Scroll color change
@@ -58,7 +63,8 @@
 
    Mijn POC= LOCAL ONLY (code hier boven)
 
-\
+
+<br>
 
 
 8. Naam functie= Stackin cards
@@ -67,7 +73,8 @@
 
    Mijn POC= https://i485489.luna.fhict.nl/scroll%20cards/ 
 
-\
+
+<br>
 
 
 9. Naam functie= Interactieve menu 
@@ -76,7 +83,7 @@
 
    Mijn POC= https://i485489.luna.fhict.nl/interactieve%20menu/  
 
-\
+<br>
 
 
 10. Naam functie= Darkmode
@@ -85,7 +92,8 @@
 
     Mijn POC= https://i485489.luna.fhict.nl/darkmode/ 
 
-\
+
+<br>
 
 
 
