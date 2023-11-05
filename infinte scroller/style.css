@@ -1,0 +1,32 @@
+* {
+  background: #e8e6da;
+}
+#scroll {
+  width: 900px;
+  height: 400px;
+  background: #e8e6da;
+  overflow-x: scroll;
+  white-space: nowrap;
+  padding-left: 2.5px;
+  margin: 0 auto;
+}
+
+.item {
+  background: #98b7af;
+  height: 370px;
+  width: 380px;
+  display: inline-block;
+  border-radius: 10px;
+  margin: 5px 2.5px;
+}
+
+/* Pretty Styles */
+
+h1 {
+  color: #555;
+  font: 30px Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 0px 1px white;
+  text-align: center;
+  margin-bottom: 10px;
+}
