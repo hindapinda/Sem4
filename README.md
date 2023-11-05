@@ -1,37 +1,75 @@
-1. Naam functie= Scroll draw a line
+1. Naam functi e= Scroll draw a line
    
-   Inspiratie bron= https://omkargosavi.com/
+   Inspiratie bron = https://omkargosavi.com/
    
-   Mijn POC= https://i485489.luna.fhict.nl/draw%20a%20line/
+   Mijn POC = https://i485489.luna.fhict.nl/draw%20a%20line/
+   
 
-2. Naam functie= cursor follower 
+2. Naam functie = cursor follower 
 
-   Inspiratie bron= 	https://dimitriossykovaris.netlify.app/about  
+   Inspiratie bron = 	https://dimitriossykovaris.netlify.app/about  
 
-   Mijn POC= https://i485489.luna.fhict.nl/cursor%20animation/
+   Mijn POC = https://i485489.luna.fhict.nl/cursor%20animation/
 
-3.
-4.
-5.
-6.
-7. Loading page 	 https://springsummer.dk 
-Local/url/
-10.	Animation 	https://masontywong.com 
-Local/url/
-11.	Hover-effecten	http://davidfaure.eu/detail/2 
-https://i485489.luna.fhict.nl/jiggle%20letters/ 
 
-12.	Infinte scroll 	https://solitario.studio/en 
-https://i485489.luna.fhict.nl/infinte%20scroller/ 
+3. Naam functie= Loading page 	 
 
-13.	Scroll color change	https://springsummer.dk 
-Local/url/
-14.	Stackin cards 	https://readymag.com/readymag/oracle-cards/?utm_source=awwwards.com&utm_medium=paid&utm_campaign=oracle_cards 
-https://i485489.luna.fhict.nl/scroll%20cards/ 
- 
-15.	Interactieve menu 	https://streetartnews.net	https://i485489.luna.fhict.nl/interactieve%20menu/  
+   Inspiratie bron= https://springsummer.dk 
 
-16.	Darkmode 	https://www.themoodydoula.com 
-https://i485489.luna.fhict.nl/darkmode/ 
+   Mijn POC= LOCAL ONLY (code hier boven)
+
+
+4. Naam functie= Animation 	
+
+   Inspiratie bron= https://masontywong.com 	
+
+   Mijn POC= LOCAL ONLY (code hier boven)
+
+
+5. Naam functie= Hover-effecten	
+
+   Inspiratie bron= http://davidfaure.eu/detail/2 
+
+   Mijn POC= https://i485489.luna.fhict.nl/jiggle%20letters/ 
+
+
+6. Naam functie= Infinte scroll 
+
+   Inspiratie bron= https://solitario.studio/en 
+
+   Mijn POC= https://i485489.luna.fhict.nl/infinte%20scroller/ 
+
+
+7. Naam functie= Scroll color change
+
+   Inspiratie bron= https://springsummer.dk 
+
+   Mijn POC= LOCAL ONLY (code hier boven)
+
+
+8. Naam functie= Stackin cards
+
+   Inspiratie bron= 	https://readymag.com/readymag/oracle-cards/?utm_source=awwwards.com&utm_medium=paid&utm_campaign=oracle_cards 
+
+   Mijn POC= https://i485489.luna.fhict.nl/scroll%20cards/ 
+
+
+9. Naam functie= Interactieve menu 
+
+   Inspiratie bron= https://streetartnews.net
+
+   Mijn POC= https://i485489.luna.fhict.nl/interactieve%20menu/  
+
+
+10. Naam functie= Darkmode 
+
+   Inspiratie bron= https://www.themoodydoula.com 
+
+   Mijn POC= https://i485489.luna.fhict.nl/darkmode/ 
+
+
+
+
+
 
 # Sem4
