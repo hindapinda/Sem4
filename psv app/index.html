@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Chat Bubble</title>
+    <style>
+      body {
+        font-family: "Helvetica Neue", sans-serif;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      .whatsapp-group {
+        background-color: #000;
+        background-image: url("images/background.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        overflow: hidden;
+      }
+
+      .textballoon-container {
+        position: relative;
+        width: 301.78px;
+        height: 74.61px;
+        background-image: url("images/tekstballon.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 10px;
+        padding: 20px;
+        margin-top: 10vh;
+        left: 38%;
+      }
+
+      .circles {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        align-items: center;
+        animation: fadeInOut 1.5s infinite alternate;
+      }
+
+      .circle {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: #808080;
+        margin-right: 5px;
+      }
+
+      .circle2 {
+        animation-delay: 0.5s;
+      }
+
+      .circle3 {
+        animation-delay: 1s;
+      }
+
+      .text {
+        color: #000;
+        margin-left: 20px;
+        opacity: 0;
+        animation: fadeInText 1s forwards 4s;
+      }
+
+      @keyframes fadeInOut {
+        0%,
+        100% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+        }
+      }
+
+      @keyframes fadeInText {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      .image-container {
+        width: 50%; /* Aangepast naar 50% van de container */
+        border-radius: 10px; /* Toegevoegde afgeronde hoeken */
+        margin-right: 20px; /* Aangepaste waarde voor meer ruimte naar rechts */
+        display: flex;
+        align-items: center;
+      }
+
+      .image {
+        width: 30%; /* Neemt nu 30% van de .image-container breedte in beslag */
+        max-width: 300px; /* Maximale breedte van de afbeelding */
+        border-radius: 10px; /* Toegevoegde afgeronde hoeken */
+        margin-left: 590px; /* Negatieve marge om naar rechts te verschuiven */
+      }
+
+      .textballoon-container:last-child {
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body class="whatsapp-group">
+    <div class="textballoon-container" id="textballoon1">
+      <div class="circles" id="circles1">
+        <div class="circle"></div>
+        <div class="circle circle2"></div>
+        <div class="circle circle3"></div>
+      </div>
+      <p class="text" id="message1">
+        Hé allemaal, wat een wedstrijd vandaag zeg! PSV was on fire 🔥
+      </p>
+    </div>
+
+    <script>
+      setTimeout(function () {
+        var circlesElement1 = document.getElementById("circles1");
+        circlesElement1.style.animation = "none";
+        circlesElement1.style.display = "none";
+
+        var messageElement1 = document.getElementById("message1");
+        messageElement1.style.animation = "fadeInText 1s forwards";
+
+        var textballoon2 = document.createElement("div");
+        textballoon2.className = "textballoon-container";
+        textballoon2.id = "textballoon2";
+        textballoon2.style.marginTop = "-20px";
+        textballoon2.innerHTML = `
+          <div class="circles" id="circles2">
+            <div class="circle"></div>
+            <div class="circle circle2"></div>
+            <div class="circle circle3"></div>
+          </div>
+          <p class="text" id="message2" style="opacity: 0;">Echt he! Ongelooflijk goed gespeeld. Maar trouwens, heb je de nieuwe Pristine trainingscollectie al gezien?</p>
+        `;
+        document.body.appendChild(textballoon2);
+
+        setTimeout(function () {
+          var circlesElement2 = document.getElementById("circles2");
+          circlesElement2.style.animation = "none";
+          circlesElement2.style.display = "none";
+
+          var messageElement2 = document.getElementById("message2");
+          messageElement2.style.animation = "fadeInText 1s forwards";
+
+          var textballoon3 = document.createElement("div");
+          textballoon3.className = "textballoon-container";
+          textballoon3.id = "textballoon3";
+          textballoon3.style.marginTop = "-20px";
+          textballoon3.innerHTML = `
+            <div class="circles" id="circles3">
+              <div class="circle"></div>
+              <div class="circle circle2"></div>
+              <div class="circle circle3"></div>
+            </div>
+            <p class="text" id="message3" style="opacity: 0;">Nee, waar kan ik die vinden?</p>
+          `;
+          document.body.appendChild(textballoon3);
+
+          setTimeout(function () {
+            var circlesElement3 = document.getElementById("circles3");
+            circlesElement3.style.animation = "none";
+            circlesElement3.style.display = "none";
+
+            var messageElement3 = document.getElementById("message3");
+            messageElement3.style.animation = "fadeInText 1s forwards";
+
+            setTimeout(function () {
+              var imageContainer = document.createElement("div");
+              imageContainer.className = "image-container";
+
+              var imageLink = document.createElement("a");
+              imageLink.href = "https://www.psvfanstore.nl/"; // Replace with the actual URL
+              imageLink.target = "_blank"; // Open link in a new tab/window
+
+              var image = document.createElement("img");
+              image.src = "images/PristineCollectie.png";
+              image.className = "image";
+
+              imageLink.appendChild(image);
+              imageContainer.appendChild(imageLink);
+              document.body.appendChild(imageContainer);
+
+              var textballoon4 = document.createElement("div");
+              textballoon4.className = "textballoon-container";
+              textballoon4.id = "textballoon4";
+              textballoon4.style.marginTop = "-10px";
+              textballoon4.innerHTML = `
+                <div class="circles" id="circles4">
+                  <div class="circle"></div>
+                  <div class="circle circle2"></div>
+                  <div class="circle circle3"></div>
+                </div>
+                <p class="text" id="message4" style="opacity: 0;">Check deze foto van het trainingspak! 📸 klik op de foto om naar de website te gaan!</p>
+              `;
+              document.body.appendChild(textballoon4);
+
+              setTimeout(function () {
+                var videoContainer = document.createElement("div");
+                videoContainer.className = "image-container";
+                var video = document.createElement("video");
+                video.controls = true;
+                video.className = "image";
+                var source = document.createElement("source");
+                source.src = "images/GOAL-GIFS_LANG 7_2.mp4"; // Replace with the actual path
+                source.type = "video/mp4";
+                video.appendChild(source);
+                videoContainer.appendChild(video);
+                document.body.appendChild(videoContainer);
+
+                setTimeout(function () {
+                  var circlesElement4 = document.getElementById("circles4");
+                  circlesElement4.style.animation = "none";
+                  circlesElement4.style.display = "none";
+
+                  var messageElement4 = document.getElementById("message4");
+                  messageElement4.style.animation = "fadeInText 1s forwards";
+
+                  // Add message5 below the GIF with a delay
+                  setTimeout(function () {
+                    var textballoon5 = document.createElement("div");
+                    textballoon5.className = "textballoon-container";
+                    textballoon5.id = "textballoon5";
+                    textballoon5.innerHTML = `
+                      <div class="circles" id="circles5">
+                        <div class="circle"></div>
+                        <div class="circle circle2"></div>
+                        <div class="circle circle3"></div>
+                      </div>
+                      <p class="text" id="message5" style="opacity: 0;">Sssst, niet de groepsapp volspamme! Ik probeer te slapen, heb morgen een wedstrijd. 😴</p>
+                    `;
+                    document.body.appendChild(textballoon5);
+
+                    setTimeout(function () {
+                      var circlesElement5 = document.getElementById("circles5");
+                      circlesElement5.style.animation = "none";
+                      circlesElement5.style.display = "none";
+
+                      var messageElement5 = document.getElementById("message5");
+                      messageElement5.style.animation =
+                        "fadeInText 1s forwards";
+                    }, 2000);
+                  }, 3000); // Delay for message5
+                }, 6000); // Delay for GIF appearance
+              }, 3000); // Delay for GIF appearance after message4
+            }, 2000);
+          }, 4000);
+        }, 4000);
+      }, 5000);
+    </script>
+  </body>
+</html>
